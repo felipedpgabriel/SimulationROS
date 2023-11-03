@@ -1,0 +1,6 @@
+<launch>
+
+    <node pkg="testes" name="angle" type="angle.py" output="screen"/>
+    <node pkg="testes" name="acell" type="randomSensor.py" output="screen"/>
+
+</launch>
